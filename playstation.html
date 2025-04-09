@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayStation - Juegos Destacados</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #003087;
+            padding: 1.5rem;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.2rem;
+        }
+        .juegos-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            padding: 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .juego {
+            background-color: #1e1e1e;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+            transition: all 0.3s ease;
+        }
+        .juego:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+        }
+        .juego img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            border-bottom: 3px solid #0066cc;
+        }
+        .juego h2 {
+            margin: 0;
+            padding: 1.2rem;
+            font-size: 1.3rem;
+            background-color: #222;
+            text-align: center;
+        }
+        .juego p {
+            padding: 0 1.2rem 1.2rem;
+            color: #ddd;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+        .juego .precio {
+            display: inline-block;
+            background-color: #0066cc;
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-weight: bold;
+            margin: 0 1.2rem 1.2rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PlayStation - Juegos Destacados</h1>
+    </header>
+    <section class="juegos-container">
+        <div class="juego">
+            <img src="images/god-of-war.jpg" alt="God of War Ragnarok">
+            <h2>God of War: Ragnarök</h2>
+            <p>Kratos y Atreus se embarcan en un viaje épico a través de los Nueve Reinos nórdicos.</p>
+            <span class="precio">$59.99</span>
+        </div>
+        <div class="juego">
+            <img src="images/spider-man.jpg" alt="Spider-Man">
+            <h2>Marvel's Spider-Man Remastered</h2>
+            <p>Vive la experiencia definitiva del Hombre Araña con gráficos mejorados.</p>
+            <span class="precio">$49.99</span>
+        </div>
+        <div class="juego">
+            <img src="images/horizon.jpg" alt="Horizon Forbidden West">
+            <h2>Horizon Forbidden West</h2>
+            <p>Explora el salvaje oeste prohibido, luchando contra nuevas máquinas.</p>
+            <span class="precio">$59.99</span>
+        </div>
+        <div class="juego">
+            <img src="images/last-of-us.jpg" alt="The Last of Us Part II">
+            <h2>The Last of Us Part II</h2>
+            <p>Una emotiva historia de venganza en un mundo post-apocalíptico.</p>
+            <span class="precio">$39.99</span>
+        </div>
+        <div class="juego">
+            <img src="images/ghost-of-tsushima.jpg" alt="Ghost of Tsushima">
+            <h2>Ghost of Tsushima</h2>
+            <p>Conviértete en el guerrero fantasma que liberará la isla de Tsushima.</p>
+            <span class="precio">$49.99</span>
+        </div>
+        <div class="juego">
+            <img src="images/uncharted.jpg" alt="Uncharted 4">
+            <h2>Uncharted 4: A Thief's End</h2>
+            <p>La última aventura de Nathan Drake en una búsqueda del tesoro épica.</p>
+            <span class="precio">$29.99</span>
+        </div>
+        <div class="juego">
+            <img src="images/demons-souls.jpg" alt="Demon's Souls">
+            <h2>Demon's Souls</h2>
+            <p>El clásico RPG de acción completamente reinventado para PS5.</p>
+            <span class="precio">$69.99</span>
+        </div>
+        <div class="juego">
+            <img src="images/ratchet-clank.jpg" alt="Ratchet & Clank">
+            <h2>Ratchet & Clank: Rift Apart</h2>
+            <p>Aventura interdimensional que aprovecha al máximo la potencia de PS5.</p>
+            <span class="precio">$69.99</span>
+        </div>
+    </section>
+</body>
+</html>
