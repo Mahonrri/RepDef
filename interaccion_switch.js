@@ -7,4 +7,9 @@
 //   });
 // });
 
+
+
+
+
+
 console.log('Interacción lista. Puedes agregar eventos aquí.');
